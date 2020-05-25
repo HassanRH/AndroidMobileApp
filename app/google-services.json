@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "680509265802",
+    "firebase_url": "https://mandatoryopgave.firebaseio.com",
+    "project_id": "mandatoryopgave",
+    "storage_bucket": "mandatoryopgave.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680509265802:android:37d88132418140c7",
+        "android_client_info": {
+          "package_name": "com.example.hassan.mandatoryopgave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680509265802-d5dik9cistbsa92t41vpo51jlhr88ms5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hassan.mandatoryopgave",
+            "certificate_hash": "84026f596b09bd604cecdb8f3297d5fe9e06db18"
+          }
+        },
+        {
+          "client_id": "680509265802-vmrb00478gtigqk8m3harhtk9uc6jbkc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzwesmBf2y_kq0o-ZJgp2n2TZi9e2qwAM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680509265802-vmrb00478gtigqk8m3harhtk9uc6jbkc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

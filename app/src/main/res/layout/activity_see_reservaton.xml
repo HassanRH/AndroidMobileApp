@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".See">
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show reservations/available room"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/roomID_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="insert room id" />
+
+    <EditText
+        android:id="@+id/date_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="insert date" />
+
+    <Button
+        android:id="@+id/show_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="Show"
+        android:text="Show" />
+
+    <TextView
+        android:id="@+id/ShowReservationButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/mainListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></ListView>
+
+
+</LinearLayout>
